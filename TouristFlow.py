@@ -7,7 +7,7 @@ def get_max_capacity(site_type):
         max_capacity = 200
     elif site_type == 3:
         site_name = "Nature Reserve"
-        max_capacity = 150
+        max_capacity = 174
     elif site_type == 4:
         site_name = "Urban Attraction"
         max_capacity = 800
