@@ -23,7 +23,7 @@ def check_alert_level(current_visitors, max_capacity):
     if percentage <= 60:
         alert = "GREEN"
         action = "Normal operations. Site is within safe capacity."
-    elif percentage <= 85:
+    elif percentage <= 74:
         alert = "AMBER"
         action = "Monitor closely. Redirect tourists to alternative sites."
     else:
